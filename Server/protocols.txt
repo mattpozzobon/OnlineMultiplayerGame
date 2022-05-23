@@ -1,0 +1,20 @@
+
+
+
+#LOBBY:
+net.lobby.send_message(player.name + ": " + data['4'])
+
+
+
+
+
+#GAMEROOM:
+
+gamerooms.create(player, "Label")
+gamerooms.close(player)
+gamerooms.join(player, room)
+gamerroms.send(player, msg)
+
+print(f"LOBBY: Q:{net.lobby.count()} P:{net.lobby.get_players()}")
+print(f"ROOMM: Q:{gamerooms.count()} P:{gamerooms.get_rooms()}")
+print(f"PLAYER: get_room:{type(player.get_game())}")

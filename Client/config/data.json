@@ -1,0 +1,11 @@
+{
+    "save": "True",
+    "name": "admin",
+    "password": "123",
+    "resolution": [
+        1200,
+        800
+    ],
+    "camera": "True",
+    "ip": "localhost"
+}
